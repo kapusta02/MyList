@@ -7,9 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b72c50-0a2d-4b7c-9609-80e58ffcf65a" name="Changes" comment="Initial commit">
+    <list default="true" id="27b72c50-0a2d-4b7c-9609-80e58ffcf65a" name="Changes" comment="Implemented the main task, custom writing MyList">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyList/Init.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/Init.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyList/MyList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyList/MyList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/087e15321bb712ef6fe8b0ba6f8bd12facf92629/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ASUS/RiderProjects/MyList/MyList/Init.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -82,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718872614372</updated>
-      <workItem from="1718872615603" duration="4703000" />
+      <workItem from="1718872615603" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -92,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718873670207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented the main task, custom writing MyList">
+      <option name="closed" value="true" />
+      <created>1718879641867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718879641867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Implemented the main task, custom writing MyList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the main task, custom writing MyList" />
   </component>
 </project>

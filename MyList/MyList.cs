@@ -1,6 +1,8 @@
+using System.Collections;
+
 namespace MyList;
 
-public class MyList<T>
+public class MyList<T>: IEnumerable<T>
 {
     private T[] _items = new T[4];
     private int _count = 0;
@@ -38,5 +40,18 @@ public class MyList<T>
 
         _count--;
         _items[_count] = default(T) ?? throw new InvalidOperationException();
+    }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+        for (int i = 0; i < _count; i++)
+        {
+            yield return _items[i];
+        }
+    }
+
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 }

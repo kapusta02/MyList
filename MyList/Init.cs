@@ -13,6 +13,19 @@ public class Init
         Console.WriteLine($"Общее количество элементов: {newList.Count}");
         
         newList.Remove(0);
-        Console.WriteLine($"Количество элементов в массиве: {newList.Count}");
+        Console.WriteLine($"Суммарное количество элементов в массиве: {newList.Count}");
+
+        Console.WriteLine("Полученные элементы в массиве:");
+        foreach (var item in newList)
+        {
+            Console.WriteLine(item);
+        }
+
+        var filteredList = newList.Where(item => item > 1);
+        Console.WriteLine("Отфильтрованный массив");
+        foreach (var item in filteredList)
+        {
+            Console.WriteLine(item);
+        }
     }
 }
