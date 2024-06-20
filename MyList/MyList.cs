@@ -2,10 +2,10 @@ using System.Collections;
 
 namespace MyList;
 
-public class MyList<T>: IEnumerable<T>
+public class MyList<T> : IEnumerable<T>
 {
     private T[] _items = new T[4];
-    private int _count = 0;
+    private int _count;
 
     public void Add(T item)
     {
@@ -23,6 +23,7 @@ public class MyList<T>: IEnumerable<T>
             {
                 Console.WriteLine("Index out of range");
             }
+
             return _items[index];
         }
     }
@@ -33,7 +34,7 @@ public class MyList<T>: IEnumerable<T>
     {
         if (index >= _count || index < 0)
             Console.WriteLine("Index out of range");
-        for (int i = index; i<_count-1; i++)
+        for (int i = index; i < _count - 1; i++)
         {
             _items[i] = _items[i + 1];
         }
@@ -44,7 +45,7 @@ public class MyList<T>: IEnumerable<T>
 
     public IEnumerator<T> GetEnumerator()
     {
-        for (int i = 0; i < _count; i++)
+        for (var i = 0; i < _count; i++)
         {
             yield return _items[i];
         }
